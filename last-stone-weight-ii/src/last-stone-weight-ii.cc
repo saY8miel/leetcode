@@ -1,9 +1,5 @@
 #include "include/utils.h"
 
-#include <bitset>
-#include <climits>
-
-
 const int NMAX = 30;
 const int MMAX = 100;
 
