@@ -74,7 +74,7 @@ int lastStoneWeightII(const vector<int>& stones) {
 
 Let `m` denote the maximal stone value, so `m <= 100`.
 
-Space: `O(n^2*m)` for the current solution, as `D` has at most `n*m` columns and `n` rows. However, as we only use two rows instead of the whole matrix, the solution can be improved to use only `O(n*m)` space.
+Space: `O(n^2*m)` for the current solution, as `D` has at most `n*m` columns (because the sum of weights is bounded by `n*m`) and `n` rows. However, as we only use two rows instead of the whole matrix, the solution can be improved to use only `O(n*m)` space.
 
-Runtime: `O(n^2*m)`.
+Runtime: `O(n^2*m)`, because the algorithm simply fills the cells of `D`, row by row.
 
